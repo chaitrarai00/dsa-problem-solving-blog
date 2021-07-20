@@ -37,4 +37,4 @@ public static int[] fun(int a[],int k)
 }
 ```
 
-##Time complexity would be O(n) where each element is changed from its position once
+_Time complexity would be O(n) where each element is changed from its position once_

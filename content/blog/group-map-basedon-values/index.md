@@ -25,7 +25,7 @@ public static void fun(Map<Character,Integer> map)
 }
 ```
 
-##We create a new_map to get the groups with respect to values so space complexity for this is O(n) and we do this by storing the keys in a list again a space complexity of O(n) that is O(n)+O(n). The time complexity of iterating through the map would be O(n)
+_We create a new_map to get the groups with respect to values so space complexity for this is O(n) and we do this by storing the keys in a list again a space complexity of O(n) that is O(n)+O(n). The time complexity of iterating through the map would be O(n)_
 
 > We first for throught the array and decide to create a new map with a Integer, List type key value pair
 
@@ -49,7 +49,7 @@ public static void fun(Map<Character,Integer> map)
     }
 ```
 
-##Same Operations same time complexity but all operations are done lazily in streams
+_Same Operations same time complexity but all operations are done lazily in streams_
 
 > Collectors.groupingBy takes the values a function and based on functions groups collects new map
 
