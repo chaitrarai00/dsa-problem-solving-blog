@@ -1,6 +1,6 @@
 ---
 title: nth Non Repeating Permutation
-date: "2021-07-20T22:40:32.169Z"
+date: "2021-07-21T22:40:32.169Z"
 description: The problem statement is to find the nth non repeating character from a given String
 ---
 
