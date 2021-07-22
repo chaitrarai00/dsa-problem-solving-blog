@@ -36,4 +36,4 @@ public static String fun(String str)
 }
 ```
 
-#Time Complexity of the algorithm is O(n) and space complexity of the extra character array O(n). We cant eliminate the usage of character array as String is immutable
+###Time Complexity of the algorithm is O(n) and space complexity of the extra character array O(n). We cant eliminate the usage of character array as String is immutable

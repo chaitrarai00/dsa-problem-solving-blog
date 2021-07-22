@@ -6,13 +6,13 @@ description: The problem statement is to find the nth non repeating character fr
 
 ##Given a strings, and a value k find the kth non repeating character ( like find the 3rd non repeating character)
 
->This problem for the nth repeating character in string has 2 things one would have to take into consideration
+> This problem for the nth repeating character in string has 2 things one would have to take into consideration
 
->one that the count has to be in check and two the index also has to be in check to get the kth repeating character
+> one that the count has to be in check and two the index also has to be in check to get the kth repeating character
 
->We create a new class/ structure to store count and index together, we will use this to store the count and recent index of each character
+> We create a new class/ structure to store count and index together, we will use this to store the count and recent index of each character
 
->next we will store each character as key in a Hashmap and value as the CountIndex of the character
+> next we will store each character as key in a Hashmap and value as the CountIndex of the character
 
 ```java
  public class Countindex{
@@ -26,7 +26,7 @@ description: The problem statement is to find the nth non repeating character fr
             this.count++;
         }
     }
-    
+
     public char fun(String str,int k)
     {
         Map<Character,Countindex> map=new LinkedHashMap<>();
@@ -45,4 +45,4 @@ description: The problem statement is to find the nth non repeating character fr
     }
 ```
 
-#The time complexity would be O(n) for storing values in hashmap and to retrieving the appropriate value from map O(1). So total complexity is O(n)
+###The time complexity would be O(n) for storing values in hashmap and to retrieving the appropriate value from map O(1). So total complexity is O(n)
