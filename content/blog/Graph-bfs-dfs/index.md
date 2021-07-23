@@ -6,6 +6,9 @@ description: Find if a Path exists and a Shortest Path in a Graph
 
 ##Problem Statement is to Find if a Path exists and a SHortest Path in a Graph using BFS and DFS
 
+![graph-representation-as-list](./graph-representation-as-list.png)
+_Graph representation in the program_
+
 > BFS is used to find the shortest path and goes spreading breadth wise
 
 > It takes extra memory to keep track of how each node is reachable
