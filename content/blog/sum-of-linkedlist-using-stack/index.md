@@ -1,6 +1,6 @@
 ---
 title: sum of two linked list using stack
-date: "2021-07-22T22:40:32.169Z"
+date: "2021-07-23T22:40:32.169Z"
 description: 1.find sum of two linked list 2.using stack
 ---
 
